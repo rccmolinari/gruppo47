@@ -4,10 +4,10 @@ import java.util.Date;
 public class Volo {
 
     enum Stato_Volo {
-        Programmato,
-        Decollato,
-        Ritardo,
-        Cacellato
+        programmato,
+        decollato,
+        ritardo,
+        cancellato
     };
 
     protected int codice_Volo;
