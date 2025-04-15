@@ -7,4 +7,13 @@ public class Passeggero {
     protected String nome;
     protected String cognome;
     protected Date data_Nascita;
+
+    public Passeggero(int id_Documento, String nome, String cognome, Date data_Nascita) {
+        this.id_Documento = id_Documento;
+        this.nome = nome;
+        this.cognome = cognome;
+        this.data_Nascita = data_Nascita;
+    }
+
+    public Passeggero() {}
 }
